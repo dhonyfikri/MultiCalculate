@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.multicalculate">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_calckit"
+        android:label="CalcKit"
+        android:roundIcon="@mipmap/logo_calckit"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MultiCalculate">
+        <activity android:name=".about"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".feedback"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".konversi_suhu"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".bangun_ruang"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".bangun_datar"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".konversi_nilai"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".bbi"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

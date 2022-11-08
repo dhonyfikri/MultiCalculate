@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MultiCalculate</string>
+    <string-array name="jumlah_nilai">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="list_bangun_datar">
+        <item>Segitiga</item>
+        <item>Persegi</item>
+        <item>Persegi Panjang</item>
+        <item>Lingkaran</item>
+        <item>Jajaran Genjang</item>
+        <item>Trapesium</item>
+    </string-array>
+    <string-array name="list_bangun_ruang">
+        <item>Kubus</item>
+        <item>Balok</item>
+        <item>Prisma</item>
+        <item>Bola</item>
+        <item>Tabung</item>
+        <item>Kerucut</item>
+    </string-array>
+</resources>
